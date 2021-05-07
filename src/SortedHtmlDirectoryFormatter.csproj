@@ -1,6 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>SortedHtmlDirectoryFormatter</PackageId>
+    <Authors>Wayne Wang</Authors>
+    <PackageTags>Microsoft.AspNetCore.StaticFiles;SortedHtmlDirectoryFormatter;HtmlDirectoryFormatter;UseDirectoryBrowser</PackageTags>
+    <Description>
+      A nuget package that provides a class `SortedHtmlDirectoryFormatter` derived from `HtmlDirectoryFormatter`, which will render the file list sorted by the `LastModified` property in descending order.
+    </Description>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
