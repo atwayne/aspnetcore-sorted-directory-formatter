@@ -4,6 +4,12 @@ A nuget package that provides a class `SortedHtmlDirectoryFormatter` derived fro
 
 ## Usage
 
+[![SortedHtmlDirectoryFormatter on fuget.org](https://www.fuget.org/packages/SortedHtmlDirectoryFormatter/badge.svg)](https://www.fuget.org/packages/SortedHtmlDirectoryFormatter)
+
+```bash
+dotnet add package SortedHtmlDirectoryFormatter
+```
+
 ```csharp
 public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 {
