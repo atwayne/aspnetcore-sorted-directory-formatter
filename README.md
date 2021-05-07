@@ -1,5 +1,5 @@
 ## General
-A nuget package that provides a class `SortedHtmlDirectoryFormatter` derived from `[HtmlDirectoryFormatter]` <sup>[Link](https://github.com/dotnet/aspnetcore/blob/main/src/Middleware/StaticFiles/src/HtmlDirectoryFormatter.cs)</sup>, which will render the file list sorted by the `LastModified` property in descending order.
+A nuget package that provides a class `SortedHtmlDirectoryFormatter` derived from `HtmlDirectoryFormatter` <sup>[Link](https://github.com/dotnet/aspnetcore/blob/main/src/Middleware/StaticFiles/src/HtmlDirectoryFormatter.cs)</sup>, which will render the file list sorted by the `LastModified` property in descending order.
 
 
 ## Usage
