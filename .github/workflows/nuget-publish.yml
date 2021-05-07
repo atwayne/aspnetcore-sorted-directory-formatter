@@ -1,8 +1,6 @@
 name: nuget publish
 
-on:
-  release:
-    types: [created]
+on: workflow_dispatch
 
 jobs:
   build:
@@ -25,5 +23,3 @@ jobs:
       run: dotnet build --no-restore
     - name: dotnet pack
       run: dotnet pack --no-restore -c Release --include-source --include-symbols -p:PackageVersion={MAJOR}.{MINOR}.{PATCH}
-    - name: dotnet nuget push
-      run: dotnet nuget push **/*.nupkg --api-key ${{secrets.NGUET_ORG_API_KEY}} --source https://api.nuget.org/v3/index.json
