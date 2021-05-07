@@ -32,6 +32,3 @@ jobs:
       
     - name: dotnet nuget push
       run: dotnet nuget push **/*.nupkg --api-key ${{secrets.NGUET_ORG_API_KEY}} --source https://api.nuget.org/v3/index.json
-      
-    - name: dotnet nuget push symbol package
-      run: dotnet nuget push **/*.snupkg --api-key ${{secrets.NGUET_ORG_API_KEY}} --source https://api.nuget.org/v3/index.json
